@@ -1,0 +1,41 @@
+body {
+	background-color: #d9e0e485 !important;
+	color: #8a8c96 !important;
+}
+.acme-text {
+	font-family: 'Acme', sans-serif;
+}
+.signika-text {
+	font-family: 'Signika', sans-serif;
+}
+.oneThird-left-pane {
+	margin-right: 40px;
+	display: block;
+}
+.oneThird-left-pane > h2 {
+	padding: 15px 0px 0px 20px;
+}
+.container {
+	margin-top: 40px;
+}
+.oneThird-left-pane, .twoThird-right-pane {
+	position: relative;
+	background-color: white;
+	height: fit-content;
+	border-radius: 3px;
+	box-shadow: 0px 0px 5px 1px lightgrey;
+}
+.filter-list {
+	flex-direction: column;
+}
+.filter-list, .filter-sublist {
+	display: flex;
+	list-style-type: none;
+}
+.filter-item, .filter-sublist-item {
+	flex: 1;
+}
+.mood, .time, .place {
+	display: flex;
+
+}

@@ -1,0 +1,72 @@
+/***********************/
+/*xl and above*/
+
+/**********************/
+
+/***********************/
+/*lg and above*/
+
+/**********************/
+
+/***********************/
+/*md and above*/
+
+/**********************/
+
+/***********************/
+/*sm and above*/
+
+/**********************/
+
+/***********************/
+/*xs and above*/
+
+/**********************/
+
+/***********************/
+/*lg to xl*/
+@media only screen and (min-width: 992px) {
+	.oneThird-left-pane {
+		width: 25%;
+	}
+	.twoThird-right-pane {
+		width: 70%;
+	}
+	.filter-sublist {
+		flex-direction: column;
+	}
+}
+/**********************/
+
+/***********************/
+/*md to lg*/
+@media only screen and (max-width: 992px) {
+	.oneThird-left-pane {
+		width: 100%;
+	}
+	.twoThird-right-pane {
+		width: 100%;
+	}
+	.oneThird-left-pane, .twoThird-right-pane {
+		margin: 0 10px;
+	}
+	.filter-sublist {
+		flex-direction: row;
+	}
+}
+
+/**********************/
+
+/***********************/
+/*sm to md*/
+
+/**********************/
+
+/***********************/
+/*xs to sm*/
+@media only screen and (max-width: 385px) {
+	.mood, .time, .place {
+		flex-direction: column;
+	}
+}
+/**********************/
