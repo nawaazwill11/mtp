@@ -11,19 +11,22 @@ body {
 .oneThird-left-pane {
 	margin-right: 40px;
 	display: block;
+	background-color: white;
+	
+	border-radius: 3px;
 }
 .oneThird-left-pane > h2 {
 	padding: 15px 0px 0px 20px;
+}
+.oneThird-left-pane, .place-box {
+	box-shadow: 0px 0px 5px 1px lightgrey;
 }
 .container {
 	margin-top: 40px;
 }
 .oneThird-left-pane, .twoThird-right-pane {
 	position: relative;
-	background-color: white;
 	height: fit-content;
-	border-radius: 3px;
-	box-shadow: 0px 0px 5px 1px lightgrey;
 }
 .filter-list {
 	flex-direction: column;
@@ -35,7 +38,73 @@ body {
 .filter-item, .filter-sublist-item {
 	flex: 1;
 }
-.mood, .time, .place {
+.mood, .time, .season {
+	display: flex;
+}
+.place-box {
+	display: flex;
+	background-color: white;
+}
+.place-image > img {
+	width: 200px;
+    height: 152px;
+}
+.info-holder {
+	display: flex;
+	flex-direction: column;
+	flex: 4;
+}
+.place-title {
+	text-align: center;
+	padding-top: 10px;
+    border-bottom: 1px solid #d3d3d3a3;
+	
+}
+.place-info {
 	display: flex;
 
+}
+.place-info-list {
+	flex: 5;
+	list-style-type: none;
+	padding-top: 10px;
+	margin-bottom: 0px !important;
+}
+.pi-list-item {
+	display: flex;
+	height: 30px;
+
+}
+.pi-list-item > p {
+	margin-left: 10px;
+}
+.pi-list-item > strong {
+	flex:2;
+}
+.pi-list-item > p {
+	flex: 5;
+}
+.place-locate {
+	flex: 1;
+}
+.place-locate > button {
+	width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #999c9fc7;
+}
+.place-box, .place-locate > button {
+	border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.place-locate > button > a {
+	color: white;
+  font-size: x-large;
+}
+
+footer {
+	background-color: #343a40;
+}
+.rock-bottom {
+	margin-top: 2.7rem !important;
 }

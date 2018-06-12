@@ -1,25 +1,42 @@
 /***********************/
-/*xl and above*/
+/*xl and below*/
 
 /**********************/
 
 /***********************/
-/*lg and above*/
+/*lg and below*/
 
 /**********************/
 
 /***********************/
-/*md and above*/
+/*md and below*/
+@media only screen and (max-width: 768px) {
+	.place-box {
+		flex-direction: column;
+	}
+	.place-image {
+		text-align: center;
+	}
+	.place-image > img {
+		width: 100%;
+	}
+	.place-box, .place-locate > button {
+		border-bottom-left-radius: 5px;
+		border-bottom-right-radius: 5px;
+		border-top-right-radius: 0px;
+		
+
+	}
+}
+/**********************/
+
+/***********************/
+/*sm and below*/
 
 /**********************/
 
 /***********************/
-/*sm and above*/
-
-/**********************/
-
-/***********************/
-/*xs and above*/
+/*xs and below*/
 
 /**********************/
 
@@ -43,12 +60,14 @@
 @media only screen and (max-width: 992px) {
 	.oneThird-left-pane {
 		width: 100%;
+		margin-bottom: 30px;
 	}
 	.twoThird-right-pane {
 		width: 100%;
 	}
 	.oneThird-left-pane, .twoThird-right-pane {
-		margin: 0 10px;
+		margin-left: 10px;
+		margin-right: 10px !important;
 	}
 	.filter-sublist {
 		flex-direction: row;
@@ -65,7 +84,7 @@
 /***********************/
 /*xs to sm*/
 @media only screen and (max-width: 385px) {
-	.mood, .time, .place {
+	.mood, .time, .season {
 		flex-direction: column;
 	}
 }
