@@ -2,7 +2,14 @@ body {
 	background-color: #d9e0e485 !important;
 	color: #8a8c96 !important;
 }
+.kaushan-text {
+	font-family: 'Kaushan Script', cursive;
+}
+.acme-text {
+	font-family: 'Acme', sans-serif;
+}
 .about-card {
+	display: flex;
 	background-color: white;
 	margin-top: 4rem;
 	border-radius: 5px;
@@ -10,11 +17,38 @@ body {
 	box-shadow: 0px 0px 4px 2px #d3d3d3a3;
 }
 .author-image {
-	width: fit-content;
-    border-radius: 100%;
-    border: 5px solid #d3d3d3a3;
+	display: table;
+	margin-top: 2.5rem;
+	text-align: center;
 }
 .author-image > img {
 	width: 250px;
-    border-radius: 100%;
+  border-radius: 100%;
+}
+.author-info {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	margin-bottom: 2rem;
+}
+.site-desc {
+	text-align: center;
+	border-bottom: 1px solid #d3d3d3a3;	
+}
+.authors-quote {
+	text-align: center;
+	padding-top: 25px;
+	display: flex;
+	flex-direction: column;
+	padding: 20px 35px;
+	border-bottom: 1px solid #d3d3d3a3;	
+	padding-bottom: 15px;
+}
+.authors-quote > p > h5 {
+	padding: 0px 35px;
+  text-transform: capitalize;
+  word-break: break-word;
+}
+.author-name {
+	margin: 0 !important;
 }

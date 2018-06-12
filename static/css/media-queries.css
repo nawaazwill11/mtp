@@ -25,6 +25,12 @@
 		border-bottom-right-radius: 5px;
 		border-top-right-radius: 0px;
 	}
+	.about-card {
+		flex-direction: column
+	}
+	.author-image {
+		margin-bottom: 1rem;
+	}
 }
 /**********************/
 
@@ -70,6 +76,9 @@
 	.filter-sublist {
 		flex-direction: row;
 	}
+	.author-image {
+
+	}
 }
 
 /**********************/
@@ -81,9 +90,12 @@
 
 /***********************/
 /*xs to sm*/
-@media only screen and (max-width: 385px) {
+@media only screen and (max-width: 400px) {
 	.mood, .time, .season {
 		flex-direction: column;
+	}
+	.place-info-list {
+		flex: 15;
 	}
 }
 /**********************/
