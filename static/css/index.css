@@ -44,6 +44,7 @@ body {
 .place-box {
 	display: flex;
 	background-color: white;
+	margin-bottom: 20px;
 }
 .place-image > img {
 	width: 200px;
@@ -104,6 +105,11 @@ body {
 
 footer {
 	background-color: #343a40;
+	position: absolute;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
 }
 .rock-bottom {
 	margin-top: 2.7rem !important;
